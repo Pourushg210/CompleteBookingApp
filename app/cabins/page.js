@@ -1,4 +1,4 @@
-import Counter from "../components/Counter";
+import Counter from "@/app/_components/Counter";
 // Getting data. We can make our React components async as well i Next.js
 const Page = async () => {
   const res = await fetch("https://jsonplaceholder.typicode.com/users");
