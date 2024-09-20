@@ -2,6 +2,9 @@ import { Suspense } from "react";
 import CabinList from "../_components/CabinList";
 import Spinner from "../_components/Spinner";
 
+//Commenting this as we we are opting out of static rendering at the component level
+//export const revalidate = 0;
+
 export const metadata = {
   title: "Cabin",
 };
